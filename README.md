@@ -1,1 +1,1 @@
-we love declan, declan loves declan, women dont like declan
+we love declan, declan loves declan, women love declan
