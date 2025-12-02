@@ -1,1 +1,0 @@
-/usr/bin/cc -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/client.dir/src/client.c.o -o client

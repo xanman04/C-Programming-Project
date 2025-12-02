@@ -1,12 +1,15 @@
 #include "../include/blackjack.h"
 #include <string.h>
 
-void hand_init(Hand *hand) {
+void hand_init(Hand *hand) 
+{
     hand->count = 0;
 }
 
-void hand_add_card(Hand *hand, Card card) {
-    if (hand->count < MAX_HAND_CARDS) {
+void hand_add_card(Hand *hand, Card card) 
+{
+    if (hand->count < MAX_HAND_CARDS) 
+    {
         hand->cards[hand->count++] = card;
     }
 }

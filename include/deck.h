@@ -5,12 +5,14 @@
 
 #define DECK_SIZE 52
 
-typedef struct {
+typedef struct 
+{
     int rank;  /* 1–13 (1=Ace, 11=J, 12=Q, 13=K) */
     int suit;  /* 0–3 (Clubs, Diamonds, Hearts, Spades) */
 } Card;
 
-typedef struct {
+typedef struct 
+{
     Card cards[DECK_SIZE];
     int top;  /* index of next card to deal */
 } Deck;

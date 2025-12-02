@@ -1,0 +1,15 @@
+# Build directories
+build/
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+
+# Binaries
+server
+client
+*.exe
+*.out
+
+# Logs / misc
+*.log

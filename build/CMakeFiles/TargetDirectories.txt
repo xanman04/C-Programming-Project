@@ -1,4 +1,0 @@
-/Users/williamlavold/Desktop/gambling/C-Programming-Project/build/CMakeFiles/server.dir
-/Users/williamlavold/Desktop/gambling/C-Programming-Project/build/CMakeFiles/client.dir
-/Users/williamlavold/Desktop/gambling/C-Programming-Project/build/CMakeFiles/edit_cache.dir
-/Users/williamlavold/Desktop/gambling/C-Programming-Project/build/CMakeFiles/rebuild_cache.dir

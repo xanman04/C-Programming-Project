@@ -6,7 +6,8 @@
 
 #define MAX_HAND_CARDS 12
 
-typedef struct {
+typedef struct 
+{
     Card cards[MAX_HAND_CARDS];
     int count;
 } Hand;
