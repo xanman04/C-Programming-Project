@@ -1,0 +1,1 @@
+/usr/bin/cc -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/server.dir/src/server.c.o CMakeFiles/server.dir/src/deck.c.o CMakeFiles/server.dir/src/blackjack.c.o -o server

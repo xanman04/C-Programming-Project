@@ -1,33 +1,23 @@
-#include <stdio.h>
+#ifndef DECK_H
+#define DECK_H
+
+#include <stddef.h>
+
+#define DECK_SIZE 52
 
 typedef struct {
-    int rank;
-    char suit;
+    int rank;  /* 1–13 (1=Ace, 11=J, 12=Q, 13=K) */
+    int suit;  /* 0–3 (Clubs, Diamonds, Hearts, Spades) */
 } Card;
 
 typedef struct {
-    Card cards[52];
-    int *top;
+    Card cards[DECK_SIZE];
+    int top;  /* index of next card to deal */
 } Deck;
 
+void deck_init(Deck *deck);
+void deck_shuffle(Deck *deck);
+Card deck_deal(Deck *deck);
+const char *card_to_string(const Card *card, char *buf, size_t bufsize);
 
-void deck_init(Deck *deck) {
-    char suits[4] = {'S', 'H', 'D', 'C'};
-    for (int suit = 0; suit < 3; suit++) {
-        for (int i = 1; i <= 13; i++) {
-            deck->cards[i-1] = Card {i, suits[suit]};
-        }
-    }
-}
-
-void deck_shuffle(Deck *deck) {
-
-}
-
-Card deck_draw(Deck *deck) {
-
-}
-
-void deck_print_card(Card c) {
-
-}
+#endif /* DECK_H */
